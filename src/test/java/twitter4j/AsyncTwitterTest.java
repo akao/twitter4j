@@ -78,28 +78,13 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
         notifyResponse();
     }
 
-    public void gotShow(Status status) {
-        this.status = status;
-        notifyResponse();
-    }
-
     public void gotShowStatus(Status status) {
-        this.status = status;
-        notifyResponse();
-    }
-
-    public void updated(Status status) {
         this.status = status;
         notifyResponse();
     }
 
     public void updatedStatus(Status status) {
         this.status = status;
-        notifyResponse();
-    }
-
-    public void gotReplies(List<Status> statuses) {
-        this.statuses = statuses;
         notifyResponse();
     }
 
@@ -148,11 +133,6 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
         notifyResponse();
     }
 
-    public void deletedDirectMessage(DirectMessage message) {
-        this.message = message;
-        notifyResponse();
-    }
-
     public void destroyedDirectMessage(DirectMessage message) {
         this.message = message;
         notifyResponse();
@@ -168,17 +148,7 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
         notifyResponse();
     }
 
-    public void created(User user) {
-        this.user = user;
-        notifyResponse();
-    }
-
     public void createdFriendship(User user) {
-        this.user = user;
-        notifyResponse();
-    }
-
-    public void destroyed(User user) {
         this.user = user;
         notifyResponse();
     }
@@ -198,10 +168,6 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
         notifyResponse();
     }
 
-    public void updatedLocation(User user) {
-        this.user = user;
-        notifyResponse();
-    }
     public void updatedProfile(User user) {
         this.extendedUser = user;
         notifyResponse();
@@ -237,27 +203,12 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
         notifyResponse();
     }
 
-    public void followed(User user) {
-        this.user = user;
-        notifyResponse();
-    }
-
     public void enabledNotification(User user) {
         this.user = user;
         notifyResponse();
     }
 
-    public void left(User user) {
-        this.user = user;
-        notifyResponse();
-    }
-
     public void disabledNotification(User user) {
-        this.user = user;
-        notifyResponse();
-    }
-
-    public void blocked(User user) {
         this.user = user;
         notifyResponse();
     }
@@ -295,10 +246,6 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
         notifyResponse();
     }
 
-    public void gotDowntimeSchedule(String schedule) {
-        this.schedule = schedule;
-        notifyResponse();
-    }
     public void searched(QueryResult result) {
         this.queryResult = result;
         notifyResponse();
@@ -635,7 +582,7 @@ public class AsyncTwitterTest extends TestCase implements TwitterListener {
 
         long id = status.getId();
 
-        twitterAPI2.updateAsync("@" + id1 + " " + date, id, this);
+        twitterAPI2.updateStatusAsync("@" + id1 + " " + date, id, this);
         waitForResponse();
         assertEquals("", "@" + id1 + " " + date, status.getText());
         assertEquals("", id, status.getInReplyToStatusId());

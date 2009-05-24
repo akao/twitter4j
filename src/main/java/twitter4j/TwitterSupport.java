@@ -214,24 +214,6 @@ import twitter4j.http.HttpClient;
         http.setRequestHeader(name, value);
     }
 
-    /**
-     * Set true to force using POST method communicating to the server.<br>
-     * This method doesn't take effect anymore
-     *
-     * @param forceUsePost if true POST method will be used forcibly
-     * @deprecated some methods don't accept POST method anymore
-     */
-    public void forceUsePost(boolean forceUsePost) {
-        // this method doesn't take effect anymore
-    }
-
-    /**
-     * @return true if POST is used forcibly
-     */
-    public boolean isUsePostForced() {
-        return false;
-    }
-
     public void setRetryCount(int retryCount) {
         http.setRetryCount(retryCount);
     }
