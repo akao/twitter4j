@@ -45,7 +45,7 @@ public class AsyncTwitter extends Twitter {
     /**
      * Returns tweets that match a specified query.
      * <br>This method calls http://search.twitter.com/search
-     * 
+     *
      * @param query - the search condition
      * @param listener a listener object that receives the response
      * @since Twitter4J 1.1.7
