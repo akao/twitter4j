@@ -99,6 +99,10 @@ public class SearchAPITest extends TestCase {
         query = new Query("from:twit4j %... 日本語");
         queryResult = unauthenticated.search(query);
         assertTrue(0 < queryResult.getTweets().size());
+        query.setQuery("from:al3x");
+        query.setGeoCode(37.78233252646689,-122.39301681518555,10,Query.KILOMETERS);
+        queryResult = unauthenticated.search(query);
+        assertTrue(0 < queryResult.getTweets().size());
 
         query = new Query("from:beastieboys");
         query.setSinceId(1671199128);
@@ -140,22 +144,18 @@ public class SearchAPITest extends TestCase {
 
         trendsList = unauthenticated.getDailyTrends();
         assertTrue(100000 > (trends.getAsOf().getTime() - System.currentTimeMillis()));
-        assertTrue(20 < trendsList.size());
         assertTrends(trendsList,20);
 
         trendsList = unauthenticated.getDailyTrends(new Date(), true);
         assertTrue(100000 > (trends.getAsOf().getTime() - System.currentTimeMillis()));
-        assertTrue(0 <= trendsList.size());
         assertTrends(trendsList,20);
 
         trendsList = unauthenticated.getWeeklyTrends();
         assertTrue(100000 > (trends.getAsOf().getTime() - System.currentTimeMillis()));
-        assertEquals(7, trendsList.size());
         assertTrends(trendsList,30);
 
         trendsList = unauthenticated.getWeeklyTrends(new Date(), true);
         assertTrue(100000 > (trends.getAsOf().getTime() - System.currentTimeMillis()));
-        assertTrue(1 <= trendsList.size());
         assertTrends(trendsList,30);
     }
     private void assertTrends(List<Trends> trendsArray, int expectedSize) throws Exception{
