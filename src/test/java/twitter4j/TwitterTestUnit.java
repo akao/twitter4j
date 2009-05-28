@@ -168,11 +168,11 @@ public class TwitterTestUnit extends TestCase {
         List<Status> statuses;
         statuses = twitterAPI1.getUserTimeline();
         assertTrue("size", 0 < statuses.size());
-        statuses = twitterAPI2.getUserTimeline(id1);
+        statuses = unauthenticated.getUserTimeline(id1);
         assertTrue("size", 0 < statuses.size());
         statuses = twitterAPI1.getUserTimeline(new Paging(999383469l));
         assertTrue("size", 0 < statuses.size());
-        statuses = twitterAPI2.getUserTimeline(id1, new Paging().count(10));
+        statuses = unauthenticated.getUserTimeline(id1, new Paging().count(10));
         assertTrue("size", 0 < statuses.size());
 //        statuses = twitterAPI1.getUserTimeline(15, new Date(0));
 //        assertTrue("size", 0 < statuses.size());
@@ -180,12 +180,12 @@ public class TwitterTestUnit extends TestCase {
         assertTrue("size", 0 < statuses.size());
 //        statuses = twitterAPI1.getUserTimeline(id1, new Date(0));
 //        assertTrue("size", 0 < statuses.size());
-        statuses = twitterAPI1.getUserTimeline(id1,new Paging(999383469l));
+        statuses = unauthenticated.getUserTimeline(id1,new Paging(999383469l));
         assertTrue("size", 0 < statuses.size());
 
 //        statuses = twitterAPI1.getUserTimeline(id1, 20, new Date(0));
 //        assertTrue("size", 0 < statuses.size());
-        statuses = twitterAPI1.getUserTimeline(id1, 20, 999383469l);
+        statuses = unauthenticated.getUserTimeline(id1, 20, 999383469l);
         assertTrue("size", 0 < statuses.size());
     }
     public void testShow() throws Exception{

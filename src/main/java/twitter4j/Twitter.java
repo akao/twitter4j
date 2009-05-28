@@ -510,7 +510,7 @@ public class Twitter extends TwitterSupport implements java.io.Serializable {
     public List<Status> getUserTimeline(String id, Paging paging)
             throws TwitterException {
         return Status.constructStatuses(get(getBaseURL() + "statuses/user_timeline/" + id + ".xml",
-                null, paging, true), this);
+                null, paging, http.isAuthenticationEnabled()), this);
     }
 
     /**
@@ -523,7 +523,7 @@ public class Twitter extends TwitterSupport implements java.io.Serializable {
      * @see <a href="http://apiwiki.twitter.com/Twitter-REST-API-Method%3A-statuses-friends_timeline">Twitter API Wiki / Twitter REST API Method: statuses friends_timeline</a>
      */
     public List<Status> getUserTimeline(String id) throws TwitterException {
-        return Status.constructStatuses(get(getBaseURL() + "statuses/user_timeline/" + id + ".xml", true), this);
+        return Status.constructStatuses(get(getBaseURL() + "statuses/user_timeline/" + id + ".xml", http.isAuthenticationEnabled()), this);
     }
 
     /**
