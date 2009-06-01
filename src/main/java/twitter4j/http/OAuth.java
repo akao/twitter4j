@@ -39,6 +39,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com
@@ -111,13 +112,15 @@ public class OAuth {
 
     }
 
+    private static Random RAND = new Random();
+
     /**
      * @return
      * @see <a href="http://oauth.net/core/1.0#rfc.section.5.4.1">OAuth Core - 5.4.1.  Authorization Header</a>
      */
     /*package*/ String generateAuthorizationHeader(String method, String url, PostParameter[] params, OAuthToken token) {
-        long nonce = System.currentTimeMillis();
-        long timestamp = nonce / 1000;
+        long timestamp = System.currentTimeMillis() / 1000;
+        long nonce = timestamp + RAND.nextInt();
         return generateAuthorizationHeader(method, url, params, String.valueOf(nonce), String.valueOf(timestamp), token);
     }
 
@@ -243,11 +246,26 @@ public class OAuth {
     public static String encode(String value) {
         String encoded = null;
         try {
-            encoded = URLEncoder.encode(value, "UTF-8").replace("%7E", "~")
-                    .replace("*", "%2A").replace("+", "%20");
+            encoded = URLEncoder.encode(value, "UTF-8");
         } catch (UnsupportedEncodingException ignore) {
         }
-        return encoded;
+        StringBuffer buf = new StringBuffer(encoded.length());
+        char focus;
+        for (int i = 0; i < encoded.length(); i++) {
+            focus = encoded.charAt(i);
+            if (focus == '*') {
+                buf.append("%2A");
+            } else if (focus == '+') {
+                buf.append("%20");
+            } else if (focus == '%' && (i + 1) < encoded.length()
+                    && encoded.charAt(i + 1) == '7' && encoded.charAt(i + 2) == 'E') {
+                buf.append('~');
+                i += 2;
+            } else {
+                buf.append(focus);
+            }
+        }
+        return buf.toString();
     }
 
     /**

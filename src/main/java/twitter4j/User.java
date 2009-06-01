@@ -141,7 +141,7 @@ public class User extends TwitterResponse implements java.io.Serializable {
                 statusInReplyToScreenName = status.getString("in_reply_to_screen_name");
             }
         } catch (JSONException jsone) {
-            throw new TwitterException(jsone.getMessage(), jsone);
+            throw new TwitterException(jsone.getMessage() + ":" + json.toString(), jsone);
         }
     }
 

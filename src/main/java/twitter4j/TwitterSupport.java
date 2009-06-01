@@ -31,7 +31,7 @@ import twitter4j.http.HttpClient;
 /**
  * @author Yusuke Yamamoto - yusuke at mac.com
  */
-public class TwitterSupport {
+/*protected*/ class TwitterSupport {
     protected HttpClient http = new HttpClient();
     protected String source = Configuration.getSource();
 //    /*package*/ static final String VERSION = Version.getVersion();
@@ -212,24 +212,6 @@ public class TwitterSupport {
      */
     public void setRequestHeader(String name, String value) {
         http.setRequestHeader(name, value);
-    }
-
-    /**
-     * Set true to force using POST method communicating to the server.<br>
-     * This method doesn't take effect anymore
-     *
-     * @param forceUsePost if true POST method will be used forcibly
-     * @deprecated some methods don't accept POST method anymore
-     */
-    public void forceUsePost(boolean forceUsePost) {
-        // this method doesn't take effect anymore
-    }
-
-    /**
-     * @return true if POST is used forcibly
-     */
-    public boolean isUsePostForced() {
-        return false;
     }
 
     public void setRetryCount(int retryCount) {

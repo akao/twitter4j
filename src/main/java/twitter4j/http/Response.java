@@ -113,7 +113,7 @@ public class Response {
      */
     public InputStream asStream() {
         if(streamConsumed){
-            throw new IllegalStateException("Stream already consumed.");
+            throw new IllegalStateException("Stream has already been consumed.");
         }
         return is;
     }
@@ -181,7 +181,7 @@ public class Response {
         try {
             return new JSONObject(asString());
         } catch (JSONException jsone) {
-            throw new TwitterException(jsone.getMessage() + ":" + this.responseAsString);
+            throw new TwitterException(jsone.getMessage() + ":" + this.responseAsString, jsone);
         }
     }
 
