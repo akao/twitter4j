@@ -1,0 +1,2712 @@
+java version "1.4.2_18"
+Java(TM) 2 Runtime Environment, Standard Edition (build 1.4.2_18-b08-314)
+Java HotSpot(TM) Client VM (build 1.4.2-90, mixed mode)
+.[Thu Jun 11 01:41:17 JST 2009]Request: 
+[Thu Jun 11 01:41:17 JST 2009]GET http://twitter.com/statuses/public_timeline.xml
+[Thu Jun 11 01:41:17 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:17 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:17 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:17 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:17 JST 2009]Response: 
+[Thu Jun 11 01:41:17 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:17 JST 2009]X-Transaction: 1244652077-76593-9160
+[Thu Jun 11 01:41:17 JST 2009]X-RateLimit-Reset: 1244654504
+[Thu Jun 11 01:41:17 JST 2009]ETag: "aee1e38d6bcbbcb71e29581df59234af"-gzip
+[Thu Jun 11 01:41:17 JST 2009]Set-Cookie: _twitter_sess=BAh7BzoHaWQiJTQxZTQ2YWMwMTI2ZDkxMWJiYzEzYzY2OGZjMTUyZTRjIgpm%250AbGFzaElDOidBY3Rpb25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAG%250AOgpAdXNlZHsA--ae34429a578c6041a8c65cbe70c9c94ea58fd63b; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:17 JST 2009]Date: Wed, 10 Jun 2009 16:41:17 GMT
+[Thu Jun 11 01:41:17 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:17 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:17 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:17 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:17 JST 2009]Connection: close
+[Thu Jun 11 01:41:17 JST 2009]Content-Length: 5868
+[Thu Jun 11 01:41:17 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:17 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:17 JST 2009]X-RateLimit-Remaining: 98
+[Thu Jun 11 01:41:17 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:17 JST 2009]X-RateLimit-Limit: 100
+[Thu Jun 11 01:41:17 JST 2009]Server: hi
+[Thu Jun 11 01:41:17 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:17 GMT
+[Thu Jun 11 01:41:17 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:17 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255398</id>
+  <text>22 Functional &amp; Inspirational Church Websites - http://tinyurl.com/l2zwk5 from @communic8jesus</text>
+  <source>&lt;a href="http://www.netvibes.com/subscribe.php?module=Twitter"&gt;Netvibes&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>15910122</id>
+    <name>Darryl E. Bozeman</name>
+    <screen_name>eMinister</screen_name>
+    <location>&#220;T: 40.347889,-79.869777</location>
+    <description>Minister, Internet Ministry Strategist, Innovative Thinker, Teacher</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/94784868/IMG00301_normal.jpg</profile_image_url>
+    <url>http://www.eministerblog.com</url>
+    <protected>false</protected>
+    <followers_count>920</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>1023</friends_count>
+    <created_at>Tue Aug 19 21:51:32 +0000 2008</created_at>
+    <favourites_count>15</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/13457390/eministerblog_twitter.PNG</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>683</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255397</id>
+  <text>&#12358;&#12416;</text>
+  <source>&lt;a href="http://d.hatena.ne.jp/Kiri_Feather/20071121"&gt;Tween&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>22750441</id>
+    <name>ichiki</name>
+    <screen_name>ichiki3</screen_name>
+    <location>&#22823;&#30000;&#21306;</location>
+    <description>Web&#38306;&#20418;&#12398;&#20181;&#20107;&#12434;&#12375;&#12390;&#12356;&#12427;&#12491;&#12467;&#21416;&#12391;&#12377;</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/239621579/2519752_153359569a_-_____normal.jpg</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>EBEBEB</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>990000</profile_link_color>
+    <profile_sidebar_fill_color>F3F3F3</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>DFDFDF</profile_sidebar_border_color>
+    <friends_count>67</friends_count>
+    <created_at>Wed Mar 04 08:55:06 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>32400</utc_offset>
+    <time_zone>Tokyo</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme7/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>349</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255394</id>
+  <text>@beerluver oh oh. Too much fun for you on Saturday. Poor baby, nurse Diane will save you</text>
+  <source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>14436724</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>BeerLuver</in_reply_to_screen_name>
+  <user>
+    <id>20350394</id>
+    <name>Diane C.</name>
+    <screen_name>Racegirl29</screen_name>
+    <location>Green Bay, Wisconsin</location>
+    <description></description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/76516474/avatar0010_eye_normal.jpg</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>270</followers_count>
+    <profile_background_color>642D8B</profile_background_color>
+    <profile_text_color>3D1957</profile_text_color>
+    <profile_link_color>462546</profile_link_color>
+    <profile_sidebar_fill_color>d87ef1</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>3e0651</profile_sidebar_border_color>
+    <friends_count>562</friends_count>
+    <created_at>Sun Feb 08 04:14:56 +0000 2009</created_at>
+    <favourites_count>10</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme10/bg.gif</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>680</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255389</id>
+  <text>@MsBeanstalk hi</text>
+  <source>&lt;a href="http://twitterhelp.blogspot.com/2008/05/twitter-via-mobile-web-mtwittercom.html"&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>25825931</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>MsBeanstalk</in_reply_to_screen_name>
+  <user>
+    <id>31527229</id>
+    <name>james headen</name>
+    <screen_name>biggame2175</screen_name>
+    <location>california</location>
+    <description>laid back guy trying to find out about this twitter thing</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/249219557/atl_normal.jpg</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>55</followers_count>
+    <profile_background_color>C6E2EE</profile_background_color>
+    <profile_text_color>663B12</profile_text_color>
+    <profile_link_color>1F98C7</profile_link_color>
+    <profile_sidebar_fill_color>DAECF4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>C6E2EE</profile_sidebar_border_color>
+    <friends_count>107</friends_count>
+    <created_at>Wed Apr 15 21:31:23 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme2/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1051</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:18 +0000 2009</created_at>
+  <id>2105255387</id>
+  <text>@ReesForCongress ... or they can simply wait for #RWRTF, that'll convince them you don't have saffers... lol</text>
+  <source>&lt;a href="http://destroytwitter.com/"&gt;DestroyTwitter&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2105238237</in_reply_to_status_id>
+  <in_reply_to_user_id>15451696</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>ReesForCongress</in_reply_to_screen_name>
+  <user>
+    <id>18411268</id>
+    <name>Sunje</name>
+    <screen_name>Sternenfee</screen_name>
+    <location>Florida</location>
+    <description>Am I really supposed to describe myself? How shallow... decide for yourself who I am</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/181950367/DSC_4228_normal.JPG</profile_image_url>
+    <url>http://www.sunjes-randomthoughts.blogspot.com/</url>
+    <protected>false</protected>
+    <followers_count>652</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>329</friends_count>
+    <created_at>Sat Dec 27 17:34:54 +0000 2008</created_at>
+    <favourites_count>249</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/11395106/water.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>14816</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255384</id>
+  <text>@bitprophet thats called google reader. take yer twitter friends timeline RSS feed and import into google reader. wala! read/unread tweets.</text>
+  <source>&lt;a href="http://www.atebits.com/"&gt;Tweetie&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2102088040</in_reply_to_status_id>
+  <in_reply_to_user_id>1297531</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>bitprophet</in_reply_to_screen_name>
+  <user>
+    <id>34617218</id>
+    <name>Kevin Fricovsky</name>
+    <screen_name>montylounge</screen_name>
+    <location>nj/nyc</location>
+    <description>Founder Monty Lounge Industries, Co-founder Django-NYC, Community Evangalist This Week In Django... family, friends, django, python, ia, ux, typography, design</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/178637582/logo2_normal.png</profile_image_url>
+    <url>http://www.montylounge.com</url>
+    <protected>false</protected>
+    <followers_count>117</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>e0e0e0</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>ffffff</profile_sidebar_border_color>
+    <friends_count>101</friends_count>
+    <created_at>Thu Apr 23 13:54:34 +0000 2009</created_at>
+    <favourites_count>144</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Quito</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/9827058/bg.png</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>251</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255383</id>
+  <text>Gas Prices Poll: Las Vegans Driving Less - http://fwix.com/article/1007347</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>42385702</id>
+    <name>Las Vegas Local</name>
+    <screen_name>lvlocal</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>73</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>0</friends_count>
+    <created_at>Mon May 25 10:41:33 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset></utc_offset>
+    <time_zone></time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1247</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:18 +0000 2009</created_at>
+  <id>2105255382</id>
+  <text>in science , planets are boring</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>29294805</id>
+    <name>Dillon Ross</name>
+    <screen_name>dillonross</screen_name>
+    <location>Nova Scotia Canada</location>
+    <description></description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/141200131/n513594256_2006537_4265_normal.jpg</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>54</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>a2a090</profile_link_color>
+    <profile_sidebar_fill_color>4676e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>5c2e10</profile_sidebar_border_color>
+    <friends_count>94</friends_count>
+    <created_at>Mon Apr 06 21:13:14 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/12472733/boomboompow.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>150</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255381</id>
+  <text>&#12497;&#12540;&#12486;&#12451;&#12463;&#12523;&#12434;&#31227;&#26893;&#12290;&#25480;&#26989;&#12290;&#12497;&#12540;&#12486;&#12451;&#12463;&#12523;&#12434;&#31227;&#26893;&#12290;</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>11526492</id>
+    <name>Kazushi Mukaiyama</name>
+    <screen_name>pla3</screen_name>
+    <location>Hakodate</location>
+    <description></description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/41638652/myface050922_22_normal.jpg</profile_image_url>
+    <url>http://www.kazushi.info/</url>
+    <protected>false</protected>
+    <followers_count>37</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>17</friends_count>
+    <created_at>Wed Dec 26 08:45:58 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>32400</utc_offset>
+    <time_zone>Tokyo</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1150</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255379</id>
+  <text>Aluminum, carbon, steel? What about titanium, bamboo http://bit.ly/bmboo, and wood http://bit.ly/w00dFrm? @plasko @cameronmoll @johndilworth</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>22632653</id>
+    <name>Theodore T</name>
+    <screen_name>deEscalate</screen_name>
+    <location>America's Svelte Midsection</location>
+    <description>Lawyer and web consultant.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/89274505/16grey3_normal.jpg</profile_image_url>
+    <url>http://tumble.de-escalate.com</url>
+    <protected>false</protected>
+    <followers_count>356</followers_count>
+    <profile_background_color>ffffff</profile_background_color>
+    <profile_text_color>766554</profile_text_color>
+    <profile_link_color>8d3f02</profile_link_color>
+    <profile_sidebar_fill_color>fafafa</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>dfdedd</profile_sidebar_border_color>
+    <friends_count>632</friends_count>
+    <created_at>Tue Mar 03 15:12:35 +0000 2009</created_at>
+    <favourites_count>58</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/6921323/line.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>668</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255375</id>
+  <text>When is it? RT @PunkRockRunner: US Half Marathon registration is open. This is a great event, over the Golden Gate Bridge and a nice medal.</text>
+  <source>&lt;a href="http://desktop.seesmic.com/"&gt;Seesmic Desktop&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>16819468</id>
+    <name>JT</name>
+    <screen_name>anotorias</screen_name>
+    <location>City of Angels</location>
+    <description>She's a runner, rebel and a stunner. On her merry way sayin: baby, whatcha gonna? Lookin' down the barrel of a hot metal .45 - just another way to survive.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/97298782/jt_normal.jpg</profile_image_url>
+    <url>http://notorias.com</url>
+    <protected>false</protected>
+    <followers_count>1027</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>545</friends_count>
+    <created_at>Fri Oct 17 03:22:43 +0000 2008</created_at>
+    <favourites_count>24</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3343869/281632.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>5304</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255374</id>
+  <text>Day shift: approximately 8.43295x better than night shift.</text>
+  <source>&lt;a href="http://help.twitter.com/index.php?pg=kb.page&amp;id=75"&gt;txt&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>31308133</id>
+    <name>Mary Virginia Cooley</name>
+    <screen_name>marycooley</screen_name>
+    <location>Saint Peter, MN</location>
+    <description>Political Science, English. Human Rights. Speech, Love, and Gusties. Books, Video, Poetry. My Planner.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/138419955/Photo_136_normal.jpg</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>8B542B</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>9D582E</profile_link_color>
+    <profile_sidebar_fill_color>EADEAA</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>D9B17E</profile_sidebar_border_color>
+    <friends_count>44</friends_count>
+    <created_at>Wed Apr 15 02:15:41 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-21600</utc_offset>
+    <time_zone>Central Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme8/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>58</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255371</id>
+  <text>vou deitar na sala e colocar as pernas pra cima UHSAHUSAHUUH entendam como quiser. ;*</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>33544888</id>
+    <name>Lu&#237;sa :}</name>
+    <screen_name>luliis</screen_name>
+    <location>S&#227;o Paulo</location>
+    <description>sou um animal sentimental -q</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/203204979/luliiiis__1__normal.JPG</profile_image_url>
+    <url>http://fotolog.com/luluziitaa</url>
+    <protected>false</protected>
+    <followers_count>118</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>4682B4</profile_link_color>
+    <profile_sidebar_fill_color>DCDCDC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>FF1493</profile_sidebar_border_color>
+    <friends_count>166</friends_count>
+    <created_at>Mon Apr 20 15:16:13 +0000 2009</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/17468990/oooooi.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>599</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255368</id>
+  <text>@MiraclesGoddess This is beautiful,rings so true! RT @jujumama He who realizes the truth of the body can then come to realize the truth of t</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2105236653</in_reply_to_status_id>
+  <in_reply_to_user_id>18463079</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>MiraclesGoddess</in_reply_to_screen_name>
+  <user>
+    <id>17657443</id>
+    <name>CherylCatherineSmith</name>
+    <screen_name>cherylcatherine</screen_name>
+    <location>Vancouver Canada</location>
+    <description>Singer/Songwriter, Recording/Visual Artist, Inspirational Speaker CCS is living her own creative dreams-her soul&#8217;s passion is to inspire others to do the same!</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/65571055/HeadshotSept08_normal.jpg</profile_image_url>
+    <url>http://www.cherylcatherinesmith.com</url>
+    <protected>false</protected>
+    <followers_count>747</followers_count>
+    <profile_background_color>FF6699</profile_background_color>
+    <profile_text_color>362720</profile_text_color>
+    <profile_link_color>B40B43</profile_link_color>
+    <profile_sidebar_fill_color>E5507E</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC3366</profile_sidebar_border_color>
+    <friends_count>746</friends_count>
+    <created_at>Wed Nov 26 19:37:25 +0000 2008</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>-28800</utc_offset>
+    <time_zone>Pacific Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/16585700/Vimeo_ADP_still_100.jpg</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <statuses_count>482</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255366</id>
+  <text>Upcoming Tech That Will Rock Your World [Upgrades]: Major announcements from Google, Microsoft, and Apple in the.. http://tinyurl.com/nz6rox</text>
+  <source>&lt;a href="http://twitterfeed.com"&gt;twitterfeed&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>25513184</id>
+    <name>Tech News</name>
+    <screen_name>technewsdirect</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/104705439/technews_normal.png</profile_image_url>
+    <url>http://technologynewsdirect.info</url>
+    <protected>false</protected>
+    <followers_count>565</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>100</friends_count>
+    <created_at>Fri Mar 20 14:40:26 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Quito</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3119</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255364</id>
+  <text>RT: @Shocklee June 11-14: Northside Festival 2009 (broooklyn!)
+http://bit.ly/SYnzX</text>
+  <source>&lt;a href="http://orangatame.com/products/twitterberry/"&gt;TwitterBerry&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>23275810</id>
+    <name>GrownFolksMusic.com</name>
+    <screen_name>GrownFolksMusic</screen_name>
+    <location>NYC/ATL</location>
+    <description>Bridging the Gap: Paying homage to the old school while embracing the new. Showcasing the finest in Classic Hip Hop, Soul, Funk, Jazz, Indie Soul and more!</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/92418161/gfm_icon_normal.jpg</profile_image_url>
+    <url>http://www.GrownFolksMusic.com  </url>
+    <protected>false</protected>
+    <followers_count>455</followers_count>
+    <profile_background_color>000000</profile_background_color>
+    <profile_text_color>2f2d2d</profile_text_color>
+    <profile_link_color>9f140f</profile_link_color>
+    <profile_sidebar_fill_color>ff9d2e</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>8f8f8f</profile_sidebar_border_color>
+    <friends_count>586</friends_count>
+    <created_at>Sun Mar 08 04:25:59 +0000 2009</created_at>
+    <favourites_count>55</favourites_count>
+    <utc_offset>-18000</utc_offset>
+    <time_zone>Eastern Time (US &amp; Canada)</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/5444453/twitter_bg.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>701</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255360</id>
+  <text>sundtrack pro feriado U give Love a bad name..... =P</text>
+  <source>&lt;a href="http://twitterfox.net/"&gt;TwitterFox&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>16257467</id>
+    <name>shampoopaula</name>
+    <screen_name>shampoopaula</screen_name>
+    <location>Porto Alegre - RS</location>
+    <description></description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/73239116/me_cam2_normal.jpg</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>59</followers_count>
+    <profile_background_color>9AE4E8</profile_background_color>
+    <profile_text_color>333333</profile_text_color>
+    <profile_link_color>0084B4</profile_link_color>
+    <profile_sidebar_fill_color>DDFFCC</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>BDDCAD</profile_sidebar_border_color>
+    <friends_count>53</friends_count>
+    <created_at>Fri Sep 12 15:07:24 +0000 2008</created_at>
+    <favourites_count>2</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Brasilia</time_zone>
+    <profile_background_image_url>http://s3.amazonaws.com/twitter_production/profile_background_images/3129424/fundo1-5.jpg</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>519</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255351</id>
+  <text>656 &#1497;&#1493;&#1510;&#1488; 656 &#1489;&#1490;&#1497;&#1502;&#1496;&#1512;&#1497;&#1492; &#1513;&#1494;&#1492; &#1504;&#1514;&#1512;&#1488;&#1492;: http://www.c2kb.com/gematria/?word=656</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>41634254</id>
+    <name>Gematria &#1490;&#1497;&#1502;&#1496;&#1512;&#1497;&#1492;</name>
+    <screen_name>harambam</screen_name>
+    <location>israel</location>
+    <description>&#1502;&#1495;&#1513;&#1489;&#1493;&#1503; &#1490;&#1497;&#1502;&#1496;&#1512;&#1497;&#1492; &#1500;&#1502;&#1510;&#1497;&#1488;&#1514; &#1489;&#1497;&#1496;&#1493;&#1497;&#1497;&#1501; &#1502;&#1511;&#1489;&#1497;&#1500;&#1497;&#1501;</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/222914747/rambam_normal.jpg</profile_image_url>
+    <url>http://www.c2kb.com/gematria</url>
+    <protected>false</protected>
+    <followers_count>20</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>1</friends_count>
+    <created_at>Thu May 21 17:39:57 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-10800</utc_offset>
+    <time_zone>Greenland</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3073</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255348</id>
+  <text>20 Puntos @globovision ! Ese es el tipo d informaci&#243;n q necesita Vzla para estar informados d la influenza  http://mypict.me/3hl3</text>
+  <source>&lt;a href="http://ubertwitter.com"&gt;UberTwitter&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>33247276</id>
+    <name>Antonio Perera</name>
+    <screen_name>crackberrista</screen_name>
+    <location>&#220;T: 8.665798,-71.028652</location>
+    <description>Nacido en Venezuela, Ciudadano del mundo interesado en tecnologia y el uso y abuso de los Blackberry.</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/239477448/crackberrista3_normal.jpg</profile_image_url>
+    <url>http://www.crackberrista.com</url>
+    <protected>false</protected>
+    <followers_count>302</followers_count>
+    <profile_background_color>352726</profile_background_color>
+    <profile_text_color>3E4415</profile_text_color>
+    <profile_link_color>D02B55</profile_link_color>
+    <profile_sidebar_fill_color>99CC33</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>829D5E</profile_sidebar_border_color>
+    <friends_count>330</friends_count>
+    <created_at>Sun Apr 19 16:55:44 +0000 2009</created_at>
+    <favourites_count>103</favourites_count>
+    <utc_offset>-14400</utc_offset>
+    <time_zone>Caracas</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme5/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2338</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:16 +0000 2009</created_at>
+  <id>2105255341</id>
+  <text>@projektlotse Gut, oder!? :)</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2101829108</in_reply_to_status_id>
+  <in_reply_to_user_id>19902701</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>projektlotse</in_reply_to_screen_name>
+  <user>
+    <id>9739592</id>
+    <name>Leander Wattig</name>
+    <screen_name>leanderwattig</screen_name>
+    <location>Leipzig, Germany</location>
+    <description>Blogger on Media Trends</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/71041567/Leander_Wattig_kleiner_grau_normal.jpg</profile_image_url>
+    <url>http://leanderwattig.de</url>
+    <protected>false</protected>
+    <followers_count>1972</followers_count>
+    <profile_background_color>b7d4f5</profile_background_color>
+    <profile_text_color>232743</profile_text_color>
+    <profile_link_color>ba5c03</profile_link_color>
+    <profile_sidebar_fill_color>a5b8d4</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>ffffff</profile_sidebar_border_color>
+    <friends_count>957</friends_count>
+    <created_at>Sat Oct 27 18:42:19 +0000 2007</created_at>
+    <favourites_count>1</favourites_count>
+    <utc_offset>3600</utc_offset>
+    <time_zone>Berlin</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1753</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+</statuses>
+
+.[Thu Jun 11 01:41:18 JST 2009]Request: 
+[Thu Jun 11 01:41:18 JST 2009]POST http://twitter.com/statuses/update.xml
+[Thu Jun 11 01:41:18 JST 2009]Authorization: Basic dHdpdDRqOnR3aXR0ZXI0ag==
+[Thu Jun 11 01:41:18 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:18 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:18 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:18 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:18 JST 2009]Post Params: status=6%2F11%3Aid1&source=Twitter4J
+[Thu Jun 11 01:41:20 JST 2009]Response: 
+[Thu Jun 11 01:41:20 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:20 JST 2009]X-Transaction: 1244652078-99298-18750
+[Thu Jun 11 01:41:20 JST 2009]Set-Cookie: _twitter_sess=BAh7CToTcGFzc3dvcmRfdG9rZW4iLWZmZTJhNmU5ZDM4N2ExZGY5OTgzNDU2%250ANDU0NDhlYjZlOTE4M2I3NGM6CXVzZXJpA9IFYToHaWQiJTdkYTkyYTU1ZmMy%250AZDY1MDhiNzQ2NWRmMTY0Nzk5ZGQ5IgpmbGFzaElDOidBY3Rpb25Db250cm9s%250AbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--e53bfdb5836e967f9ef9dfd10010caec6d48657a; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:20 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:20 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:20 JST 2009]ETag: "2f7579d9e36143feb52abc118c69e55f"-gzip
+[Thu Jun 11 01:41:20 JST 2009]Date: Wed, 10 Jun 2009 16:41:18 GMT
+[Thu Jun 11 01:41:20 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:20 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:20 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:20 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:20 JST 2009]Connection: close
+[Thu Jun 11 01:41:20 JST 2009]Content-Length: 679
+[Thu Jun 11 01:41:20 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:20 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:20 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:20 JST 2009]Server: hi
+[Thu Jun 11 01:41:20 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:18 GMT
+[Thu Jun 11 01:41:20 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:20 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<status>
+  <created_at>Wed Jun 10 16:41:18 +0000 2009</created_at>
+  <id>2105255801</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3279</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+
+[Thu Jun 11 01:41:20 JST 2009]Request: 
+[Thu Jun 11 01:41:20 JST 2009]POST http://twitter.com/statuses/update.xml
+[Thu Jun 11 01:41:20 JST 2009]Authorization: Basic dHdpdDRqMjp0d2l0dGVyNGoy
+[Thu Jun 11 01:41:20 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:20 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:20 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:20 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:20 JST 2009]Post Params: status=6%2F11%3Aid2&source=Twitter4J
+[Thu Jun 11 01:41:22 JST 2009]Response: 
+[Thu Jun 11 01:41:22 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:22 JST 2009]X-Transaction: 1244652081-80910-4725
+[Thu Jun 11 01:41:22 JST 2009]Set-Cookie: _twitter_sess=BAh7CToJdXNlcmkDkk9hOhNwYXNzd29yZF90b2tlbiItOGIxOTIxOWU0N2I3%250AODJhNTE4ODk1MWU0MjI5M2FmNjJkNmEzYjRmZDoHaWQiJWVlZDA3NDFmN2Nj%250AZTNlNzY2OWJjMGI3NzRkYTFlNjY0IgpmbGFzaElDOidBY3Rpb25Db250cm9s%250AbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--8eeb17de6101130f69574a2a41bacbdb34038f8f; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:22 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:22 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:22 JST 2009]ETag: "c563e585e340005a5092d2f56a43f702"-gzip
+[Thu Jun 11 01:41:22 JST 2009]Date: Wed, 10 Jun 2009 16:41:20 GMT
+[Thu Jun 11 01:41:22 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:22 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:22 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:22 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:22 JST 2009]Connection: close
+[Thu Jun 11 01:41:22 JST 2009]Content-Length: 656
+[Thu Jun 11 01:41:22 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:22 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:22 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:22 JST 2009]Server: hi
+[Thu Jun 11 01:41:22 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:21 GMT
+[Thu Jun 11 01:41:22 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:22 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<status>
+  <created_at>Wed Jun 10 16:41:21 +0000 2009</created_at>
+  <id>2105256261</id>
+  <text>6/11:id2</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>137</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1791</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+
+[Thu Jun 11 01:41:22 JST 2009]Request: 
+[Thu Jun 11 01:41:22 JST 2009]GET http://twitter.com/statuses/friends_timeline.xml
+[Thu Jun 11 01:41:22 JST 2009]Authorization: Basic dHdpdDRqOnR3aXR0ZXI0ag==
+[Thu Jun 11 01:41:22 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:22 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:22 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:22 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:22 JST 2009]Response: 
+[Thu Jun 11 01:41:22 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:22 JST 2009]X-Transaction: 1244652082-23630-32590
+[Thu Jun 11 01:41:22 JST 2009]X-RateLimit-Reset: 1244655682
+[Thu Jun 11 01:41:22 JST 2009]ETag: "60433e1228873aabd2ad6f06846f80b0"-gzip
+[Thu Jun 11 01:41:22 JST 2009]Set-Cookie: _twitter_sess=BAh7CToJdXNlcmkD0gVhOhNwYXNzd29yZF90b2tlbiItZmZlMmE2ZTlkMzg3%250AYTFkZjk5ODM0NTY0NTQ0OGViNmU5MTgzYjc0YzoHaWQiJTNhN2I2NmE2OTc2%250AMmRmYmE0Mjc5YTMxMGQyNDM3YWY4IgpmbGFzaElDOidBY3Rpb25Db250cm9s%250AbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--7714ca696d9e4e85b4b0a828ce934d01667161bd; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:22 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:22 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:22 JST 2009]Date: Wed, 10 Jun 2009 16:41:22 GMT
+[Thu Jun 11 01:41:22 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:22 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:22 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:22 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:22 JST 2009]Connection: close
+[Thu Jun 11 01:41:22 JST 2009]Content-Length: 1651
+[Thu Jun 11 01:41:22 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:22 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:22 JST 2009]X-RateLimit-Remaining: 19999
+[Thu Jun 11 01:41:22 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:22 JST 2009]X-RateLimit-Limit: 20000
+[Thu Jun 11 01:41:22 JST 2009]Server: hi
+[Thu Jun 11 01:41:22 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:22 GMT
+[Thu Jun 11 01:41:22 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:22 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Wed Jun 10 16:41:21 +0000 2009</created_at>
+  <id>2105256261</id>
+  <text>6/11:id2</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>137</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1791</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:18 +0000 2009</created_at>
+  <id>2105255801</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3279</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:56:12 +0000 2009</created_at>
+  <id>2104717182</id>
+  <text>test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twi&#8224;&#8224;er4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>4933401</id>
+    <name>&#23665;&#26412; &#35029;&#20171;</name>
+    <screen_name>yusukey</screen_name>
+    <location>iPhone: 35.775543,139.689972</location>
+    <description>http://yusuke.homeip.net/diary/</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/45604732/a_normal.jpg</profile_image_url>
+    <url>http://yusuke.homeip.net/diary/</url>
+    <protected>false</protected>
+    <followers_count>164</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>66</friends_count>
+    <created_at>Tue Apr 17 00:28:18 +0000 2007</created_at>
+    <favourites_count>15</favourites_count>
+    <utc_offset>32400</utc_offset>
+    <time_zone>Tokyo</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2325</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:10:02 +0000 2009</created_at>
+  <id>2104168494</id>
+  <text>%... &#26085;&#26412;&#35486;</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3278</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:30 +0000 2009</created_at>
+  <id>2104150790</id>
+  <text>streaming test:Thu Jun 11 00:08:30 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>42419133</id>
+    <name>twit4jprotected</name>
+    <screen_name>twit4jprotected</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>true</protected>
+    <followers_count>1</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>1</friends_count>
+    <created_at>Mon May 25 14:58:23 +0000 2009</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-36000</utc_offset>
+    <time_zone>Hawaii</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>51</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:29 +0000 2009</created_at>
+  <id>2104150619</id>
+  <text>streaming test:Thu Jun 11 00:08:30 JST 2009</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3277</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:25 +0000 2009</created_at>
+  <id>2104149895</id>
+  <text>streaming test:Thu Jun 11 00:08:26 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3276</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:25 +0000 2009</created_at>
+  <id>2104149719</id>
+  <text>streaming test:Thu Jun 11 00:08:25 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3275</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:21 +0000 2009</created_at>
+  <id>2104148940</id>
+  <text>streaming test:Thu Jun 11 00:08:21 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3274</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:06:40 +0000 2009</created_at>
+  <id>2104129052</id>
+  <text>@twit4j reply to id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>137</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1790</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:06:38 +0000 2009</created_at>
+  <id>2104128587</id>
+  <text>test</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3273</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:06:36 +0000 2009</created_at>
+  <id>2104128279</id>
+  <text>@twit4j Thu Jun 11 00:06:36 JST 2009test</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2104128079</in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>136</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1789</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:05:27 +0000 2009</created_at>
+  <id>2104114442</id>
+  <text>6/11:id2</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>16</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>136</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1788</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:05:22 +0000 2009</created_at>
+  <id>2104113485</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3272</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:04:57 +0000 2009</created_at>
+  <id>2104108216</id>
+  <text>@twit4j reply to id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>16</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>136</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1787</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:04:53 +0000 2009</created_at>
+  <id>2104107601</id>
+  <text>test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3271</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:04:51 +0000 2009</created_at>
+  <id>2104107175</id>
+  <text>@twit4j Thu Jun 11 00:04:51 JST 2009test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2104106920</in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>16</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>135</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1786</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:03:28 +0000 2009</created_at>
+  <id>2104090559</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3270</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:03:07 +0000 2009</created_at>
+  <id>2104086450</id>
+  <text>Thu Jun 11 00:03:07 JST 2009test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3269</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:02:35 +0000 2009</created_at>
+  <id>2104080054</id>
+  <text>Thu Jun 11 00:02:35 JST 2009</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3268</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+</statuses>
+
+[Thu Jun 11 01:41:22 JST 2009]Request: 
+[Thu Jun 11 01:41:22 JST 2009]GET http://twitter.com/statuses/friends_timeline/twit4j.xml
+[Thu Jun 11 01:41:22 JST 2009]Authorization: Basic dHdpdDRqMjp0d2l0dGVyNGoy
+[Thu Jun 11 01:41:22 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:22 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:22 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:22 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:23 JST 2009]Response: 
+[Thu Jun 11 01:41:23 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:23 JST 2009]X-Transaction: 1244652083-20070-25833
+[Thu Jun 11 01:41:23 JST 2009]X-RateLimit-Reset: 1244655683
+[Thu Jun 11 01:41:23 JST 2009]ETag: "c55be6bc3509ddc2ac55beb3336cd38d"-gzip
+[Thu Jun 11 01:41:23 JST 2009]Set-Cookie: _twitter_sess=BAh7CToJdXNlcmkDkk9hOhNwYXNzd29yZF90b2tlbiItOGIxOTIxOWU0N2I3%250AODJhNTE4ODk1MWU0MjI5M2FmNjJkNmEzYjRmZDoHaWQiJTYwNDY4ZGMzMzMz%250ANDljMjU5MThmMmUzNGNkYjNjYWUyIgpmbGFzaElDOidBY3Rpb25Db250cm9s%250AbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a97dd063cf189daeb036fd317b6078234b5a9379; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:23 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:23 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:23 JST 2009]Date: Wed, 10 Jun 2009 16:41:23 GMT
+[Thu Jun 11 01:41:23 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:23 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:23 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:23 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:23 JST 2009]Connection: close
+[Thu Jun 11 01:41:23 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:23 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:23 JST 2009]X-RateLimit-Remaining: 19999
+[Thu Jun 11 01:41:23 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:23 JST 2009]X-RateLimit-Limit: 20000
+[Thu Jun 11 01:41:23 JST 2009]Server: hi
+[Thu Jun 11 01:41:23 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:23 GMT
+[Thu Jun 11 01:41:23 JST 2009]Transfer-Encoding: chunked
+[Thu Jun 11 01:41:23 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:23 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Wed Jun 10 16:41:21 +0000 2009</created_at>
+  <id>2105256261</id>
+  <text>6/11:id2</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>137</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1791</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 16:41:18 +0000 2009</created_at>
+  <id>2105255801</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3279</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:56:12 +0000 2009</created_at>
+  <id>2104717182</id>
+  <text>test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twi&#8224;&#8224;er4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>4933401</id>
+    <name>&#23665;&#26412; &#35029;&#20171;</name>
+    <screen_name>yusukey</screen_name>
+    <location>iPhone: 35.775543,139.689972</location>
+    <description>http://yusuke.homeip.net/diary/</description>
+    <profile_image_url>http://s3.amazonaws.com/twitter_production/profile_images/45604732/a_normal.jpg</profile_image_url>
+    <url>http://yusuke.homeip.net/diary/</url>
+    <protected>false</protected>
+    <followers_count>164</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>66</friends_count>
+    <created_at>Tue Apr 17 00:28:18 +0000 2007</created_at>
+    <favourites_count>15</favourites_count>
+    <utc_offset>32400</utc_offset>
+    <time_zone>Tokyo</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>2325</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:10:02 +0000 2009</created_at>
+  <id>2104168494</id>
+  <text>%... &#26085;&#26412;&#35486;</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3278</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:29 +0000 2009</created_at>
+  <id>2104150619</id>
+  <text>streaming test:Thu Jun 11 00:08:30 JST 2009</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3277</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:25 +0000 2009</created_at>
+  <id>2104149895</id>
+  <text>streaming test:Thu Jun 11 00:08:26 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3276</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:25 +0000 2009</created_at>
+  <id>2104149719</id>
+  <text>streaming test:Thu Jun 11 00:08:25 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3275</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:08:21 +0000 2009</created_at>
+  <id>2104148940</id>
+  <text>streaming test:Thu Jun 11 00:08:21 JST 2009</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3274</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:06:40 +0000 2009</created_at>
+  <id>2104129052</id>
+  <text>@twit4j reply to id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>137</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1790</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:06:38 +0000 2009</created_at>
+  <id>2104128587</id>
+  <text>test</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3273</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:06:36 +0000 2009</created_at>
+  <id>2104128279</id>
+  <text>@twit4j Thu Jun 11 00:06:36 JST 2009test</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2104128079</in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>136</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1789</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:05:27 +0000 2009</created_at>
+  <id>2104114442</id>
+  <text>6/11:id2</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>16</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>136</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1788</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:05:22 +0000 2009</created_at>
+  <id>2104113485</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3272</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:04:57 +0000 2009</created_at>
+  <id>2104108216</id>
+  <text>@twit4j reply to id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>16</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>136</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1787</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:04:53 +0000 2009</created_at>
+  <id>2104107601</id>
+  <text>test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3271</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:04:51 +0000 2009</created_at>
+  <id>2104107175</id>
+  <text>@twit4j Thu Jun 11 00:04:51 JST 2009test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>2104106920</in_reply_to_status_id>
+  <in_reply_to_user_id>6358482</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>twit4j</in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>16</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>135</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1786</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:03:28 +0000 2009</created_at>
+  <id>2104090559</id>
+  <text>6/11:id1</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>5</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3270</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:03:07 +0000 2009</created_at>
+  <id>2104086450</id>
+  <text>Thu Jun 11 00:03:07 JST 2009test</text>
+  <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>24</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3269</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:02:35 +0000 2009</created_at>
+  <id>2104080054</id>
+  <text>Thu Jun 11 00:02:35 JST 2009</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6358482</id>
+    <name>twit4j</name>
+    <screen_name>twit4j</screen_name>
+    <location>location:</location>
+    <description>Hi there, I do test a lot!</description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url>http://yusuke.homeip.net/twitter4j/</url>
+    <protected>false</protected>
+    <followers_count>25</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>4</friends_count>
+    <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+    <favourites_count>0</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>3268</statuses_count>
+    <notifications></notifications>
+    <following></following>
+  </user>
+</status>
+<status>
+  <created_at>Wed Jun 10 15:02:29 +0000 2009</created_at>
+  <id>2104078870</id>
+  <text>6/11:id2</text>
+  <source>&lt;a href=&quot;http://yusuke.homeip.net/twitter4j/&quot;&gt;Twitter4J&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>6377362</id>
+    <name>twit4j2</name>
+    <screen_name>twit4j2</screen_name>
+    <location></location>
+    <description></description>
+    <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>17</followers_count>
+    <profile_background_color>9ae4e8</profile_background_color>
+    <profile_text_color>000000</profile_text_color>
+    <profile_link_color>0000ff</profile_link_color>
+    <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+    <friends_count>3</friends_count>
+    <created_at>Mon May 28 06:26:37 +0000 2007</created_at>
+    <favourites_count>134</favourites_count>
+    <utc_offset>-32400</utc_offset>
+    <time_zone>Alaska</time_zone>
+    <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+    <profile_background_tile>false</profile_background_tile>
+    <statuses_count>1785</statuses_count>
+    <notifications>false</notifications>
+    <following>false</following>
+  </user>
+</status>
+</statuses>
+
+.[Thu Jun 11 01:41:23 JST 2009]Request: 
+[Thu Jun 11 01:41:23 JST 2009]GET http://twitter.com/users/show/twit4j.xml
+[Thu Jun 11 01:41:23 JST 2009]Authorization: Basic dHdpdDRqOnR3aXR0ZXI0ag==
+[Thu Jun 11 01:41:23 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:23 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:23 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:23 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:47 JST 2009]Response: 
+[Thu Jun 11 01:41:47 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:47 JST 2009]Content-Length: 1633
+[Thu Jun 11 01:41:47 JST 2009]Connection: close
+[Thu Jun 11 01:41:47 JST 2009]HTTP/1.1 502 Bad Gateway
+[Thu Jun 11 01:41:47 JST 2009]Date: Wed, 10 Jun 2009 16:41:23 GMT
+[Thu Jun 11 01:41:47 JST 2009]Accept-Ranges: bytes
+[Thu Jun 11 01:41:47 JST 2009]Server: Apache
+[Thu Jun 11 01:41:47 JST 2009]Content-Type: text/html; charset=UTF-8
+[Thu Jun 11 01:41:47 JST 2009]Last-Modified: Wed, 13 May 2009 19:31:15 GMT
+[Thu Jun 11 01:41:47 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:47 JST 2009]<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  	<meta http-equiv="Content-Language" content="en-us" />
+  	<title>Twitter / Over capacity</title>
+  	<link rel="icon" href="http://static.twitter.com/favicon.ico" type="image/ico" />
+  	<style type="text/css">
+    body{background:#9AE4E8 url(http://static.twitter.com/images/bg.gif) no-repeat fixed left top;color:#333;font:0.75em Helvetica,Arial,sans-serif;text-align:center}
+    #container { width: 755px; margin: 0 auto; padding: 0px 0; text-align: left; position: relative; }
+    #content { width: 100%; margin-top: 0px; float: left; padding-bottom: 15px; background: transparent url(http://static.twitter.com/images/arr2.gif) no-repeat scroll 25px 0px;}
+    .subpage #content .wrapper { background-color: #fff; padding: 20px 10px 15px 10px; -moz-border-radius: 5px;-webkit-border-radius: 5px;}
+    .subpage #content h1, .subpage #content h2, .subpage #content h3, .subpage #content h4, .subpage #content h5 { margin: 3px 0pt 4px; }
+    .subpage #content p { line-height: 1.2; margin: 5px 0; }
+    .subpage #content ul { padding-left: 30px; }
+    .subpage #content ol, #side ol { padding-left: 30px; }
+    a{text-decoration:none;color: #0084b4;}
+    #content div.desc { margin: 11px 0px 10px 0px; }
+    a img{border:0;}
+    ul{list-style:square;padding-left:20px;}
+
+    #navigation { position: absolute; top: 12px; right: 0; padding: 0px 5px 0px 5px; line-height: 0.5em; text-align: center; }
+    #navigation ul { 
+      list-style:none
+      margin: 0; padding: 0px;
+      width: auto; height: 100%;
+    }
+    #navigation li { display:inline; padding: 0 0 0 5px; } 
+    #navigation li:before { content: ' '; padding-right: 0; }
+    #navigation li.first:before { content: ''; padding-right: 0; }
+    #navigation, #footer { background-color: #fff; -moz-border-radius: 5px;-webkit-border-radius: 5px;}
+
+    #footer { clear: left; width: 555px; text-align: center; padding: 1px 0; line-height: 1; }
+    #footer li { display: inline; padding: 0 0 0 5px; }
+    #footer li.first:before { content: ''; padding-right: 0; }
+
+  	</style>
+  </head>
+  <body>
+
+    <div id="container" class="subpage">
+      <div id="navigation">
+        <ul>
+          <li class="first"><a href="http://twitter.com">Home</a></li>
+          <li><a href="http://twitter.com/public_timeline">Public Timeline</a></li>
+          <li><a href="http://help.twitter.com">Help</a></li>
+        </ul>
+      </div>
+      <h1 id="header"><a href="http://twitter.com"><img src="http://static.twitter.com/images/twitter_logo_s.gif" /></a></h1> 
+      <div id="content">
+        <div class="desc"></div>
+        <div class="wrapper">
+          <span style="font-size:1.8em; font-weight:bold">Twitter is over capacity.</span><br />
+          <div style="font-size:1.2em;margin-top:2px;color:#b6b6a3">Too many tweets! Please wait a moment and try again.</div><br />
+
+          <p style="margin-bottom:10px;text-align:center"><img src="http://static.twitter.com/images/whale.png" /></p>
+        </div>
+      </div>
+
+      <div id="footer" style="width:100%">
+        <ul>
+          <li class="first">&copy; 2009 Twitter</li>
+          <li><a href="/help/aboutus">About Us</a></li>
+          <li><a href="/help/contact">Contact</a></li>
+          <li><a href="http://blog.twitter.com/">Blog</a></li>
+          <li><a href="http://status.twitter.com/">Status</a></li>
+          <li><a href="/help/api">API</a></li>
+          <li><a href="http://help.twitter.com/">Help</a></li>
+          <li><a href="/help/jobs">Jobs</a></li>
+          <li><a href="/help/tos">TOS</a></li>
+          <li><a href="/help/privacy">Privacy</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- BEGIN google analytics -->
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      var pageTracker = _gat._getTracker("UA-30775-6");
+      pageTracker._setDomainName("twitter.com");
+      pageTracker._trackPageview('503 Error');
+    </script>
+    <!-- END google analytics -->
+
+  </body>
+</html>
+
+[Thu Jun 11 01:41:47 JST 2009]Sleeping 10000 millisecs for next retry.
+[Thu Jun 11 01:41:57 JST 2009]Request: 
+[Thu Jun 11 01:41:57 JST 2009]GET http://twitter.com/users/show/twit4j.xml
+[Thu Jun 11 01:41:57 JST 2009]Authorization: Basic dHdpdDRqOnR3aXR0ZXI0ag==
+[Thu Jun 11 01:41:57 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:57 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:57 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:57 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:58 JST 2009]Response: 
+[Thu Jun 11 01:41:58 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:58 JST 2009]X-Transaction: 1244652118-92333-22034
+[Thu Jun 11 01:41:58 JST 2009]X-RateLimit-Reset: 1244655682
+[Thu Jun 11 01:41:58 JST 2009]ETag: "1601972a312cfae630cf323e4cff7083"-gzip
+[Thu Jun 11 01:41:58 JST 2009]Set-Cookie: _twitter_sess=BAh7CToTcGFzc3dvcmRfdG9rZW4iLWZmZTJhNmU5ZDM4N2ExZGY5OTgzNDU2%250ANDU0NDhlYjZlOTE4M2I3NGM6CXVzZXJpA9IFYToHaWQiJTQzODYxZDhhNTE2%250AMmNjZmQwNjk2MWQ5ZDFhOTI4NWI0IgpmbGFzaElDOidBY3Rpb25Db250cm9s%250AbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--e8c48ee459beb81f0be44315f9dd0d1b07bee045; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:58 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:58 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:58 JST 2009]Date: Wed, 10 Jun 2009 16:41:57 GMT
+[Thu Jun 11 01:41:58 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:58 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:58 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:58 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:58 JST 2009]Connection: close
+[Thu Jun 11 01:41:58 JST 2009]Content-Length: 681
+[Thu Jun 11 01:41:58 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:58 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:58 JST 2009]X-RateLimit-Remaining: 19994
+[Thu Jun 11 01:41:58 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:58 JST 2009]X-RateLimit-Limit: 20000
+[Thu Jun 11 01:41:58 JST 2009]Server: hi
+[Thu Jun 11 01:41:58 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:58 GMT
+[Thu Jun 11 01:41:58 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:58 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <id>6358482</id>
+  <name>twit4j</name>
+  <screen_name>twit4j</screen_name>
+  <location>location:</location>
+  <description>Hi there, I do test a lot!</description>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url>http://yusuke.homeip.net/twitter4j/</url>
+  <protected>false</protected>
+  <followers_count>24</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>5</friends_count>
+  <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-32400</utc_offset>
+  <time_zone>Alaska</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>3280</statuses_count>
+  <notifications>false</notifications>
+  <following>false</following>
+  <status>
+    <created_at>Wed Jun 10 16:41:52 +0000 2009</created_at>
+    <id>2105262344</id>
+    <text>Thu Jun 11 01:41:52 JST 2009</text>
+    <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+  </status>
+</user>
+
+[Thu Jun 11 01:41:58 JST 2009]Request: 
+[Thu Jun 11 01:41:58 JST 2009]GET http://twitter.com/users/show/twit4j.xml
+[Thu Jun 11 01:41:58 JST 2009]Authorization: Basic dHdpdDRqOnR3aXR0ZXI0ag==
+[Thu Jun 11 01:41:58 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:58 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:58 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:58 JST 2009]X-Twitter-Client-Version: undefined
+[Thu Jun 11 01:41:59 JST 2009]Response: 
+[Thu Jun 11 01:41:59 JST 2009]Status: 200 OK
+[Thu Jun 11 01:41:59 JST 2009]X-Transaction: 1244652118-83315-31421
+[Thu Jun 11 01:41:59 JST 2009]X-RateLimit-Reset: 1244655682
+[Thu Jun 11 01:41:59 JST 2009]ETag: "1601972a312cfae630cf323e4cff7083"-gzip
+[Thu Jun 11 01:41:59 JST 2009]Set-Cookie: _twitter_sess=BAh7CToJdXNlcmkD0gVhOhNwYXNzd29yZF90b2tlbiItZmZlMmE2ZTlkMzg3%250AYTFkZjk5ODM0NTY0NTQ0OGViNmU5MTgzYjc0YzoHaWQiJWYwNDYyM2ZiMzBh%250AYzkxMDJiODg1YTU2MzEyODU0OWYxIgpmbGFzaElDOidBY3Rpb25Db250cm9s%250AbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--06e8b44306f996143c07ce8567bb87d5814c3c19; domain=.twitter.com; path=/
+[Thu Jun 11 01:41:59 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:59 JST 2009]Set-Cookie: lang=en; path=/
+[Thu Jun 11 01:41:59 JST 2009]Date: Wed, 10 Jun 2009 16:41:58 GMT
+[Thu Jun 11 01:41:59 JST 2009]Pragma: no-cache
+[Thu Jun 11 01:41:59 JST 2009]Content-Type: application/xml; charset=utf-8
+[Thu Jun 11 01:41:59 JST 2009]Cache-Control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[Thu Jun 11 01:41:59 JST 2009]X-Revision: 61fa9cb8020eaa97f17ef23fa46b611c2f8cfbe4
+[Thu Jun 11 01:41:59 JST 2009]Connection: close
+[Thu Jun 11 01:41:59 JST 2009]Content-Length: 681
+[Thu Jun 11 01:41:59 JST 2009]Content-Encoding: gzip
+[Thu Jun 11 01:41:59 JST 2009]Expires: Tue, 31 Mar 1981 05:00:00 GMT
+[Thu Jun 11 01:41:59 JST 2009]X-RateLimit-Remaining: 19993
+[Thu Jun 11 01:41:59 JST 2009]HTTP/1.1 200 OK
+[Thu Jun 11 01:41:59 JST 2009]X-RateLimit-Limit: 20000
+[Thu Jun 11 01:41:59 JST 2009]Server: hi
+[Thu Jun 11 01:41:59 JST 2009]Last-Modified: Wed, 10 Jun 2009 16:41:58 GMT
+[Thu Jun 11 01:41:59 JST 2009]Vary: Accept-Encoding
+[Thu Jun 11 01:41:59 JST 2009]<?xml version="1.0" encoding="UTF-8"?>
+<user>
+  <id>6358482</id>
+  <name>twit4j</name>
+  <screen_name>twit4j</screen_name>
+  <location>location:</location>
+  <description>Hi there, I do test a lot!</description>
+  <profile_image_url>http://static.twitter.com/images/default_profile_normal.png</profile_image_url>
+  <url>http://yusuke.homeip.net/twitter4j/</url>
+  <protected>false</protected>
+  <followers_count>24</followers_count>
+  <profile_background_color>9ae4e8</profile_background_color>
+  <profile_text_color>000000</profile_text_color>
+  <profile_link_color>0000ff</profile_link_color>
+  <profile_sidebar_fill_color>e0ff92</profile_sidebar_fill_color>
+  <profile_sidebar_border_color>87bc44</profile_sidebar_border_color>
+  <friends_count>5</friends_count>
+  <created_at>Sun May 27 09:52:09 +0000 2007</created_at>
+  <favourites_count>0</favourites_count>
+  <utc_offset>-32400</utc_offset>
+  <time_zone>Alaska</time_zone>
+  <profile_background_image_url>http://static.twitter.com/images/themes/theme1/bg.gif</profile_background_image_url>
+  <profile_background_tile>false</profile_background_tile>
+  <statuses_count>3280</statuses_count>
+  <notifications>false</notifications>
+  <following>false</following>
+  <status>
+    <created_at>Wed Jun 10 16:41:52 +0000 2009</created_at>
+    <id>2105262344</id>
+    <text>Thu Jun 11 01:41:52 JST 2009</text>
+    <source>&lt;a href="http://yusuke.homeip.net/twitter4j/"&gt;Twitter4J&lt;/a&gt;</source>
+    <truncated>false</truncated>
+    <in_reply_to_status_id></in_reply_to_status_id>
+    <in_reply_to_user_id></in_reply_to_user_id>
+    <favorited>false</favorited>
+    <in_reply_to_screen_name></in_reply_to_screen_name>
+  </status>
+</user>
+
+.[Thu Jun 11 01:41:59 JST 2009]Request: 
+[Thu Jun 11 01:41:59 JST 2009]GET http://twitter.com/statuses/user_timeline.xml
+[Thu Jun 11 01:41:59 JST 2009]Authorization: Basic dHdpdDRqMjp0d2l0dGVyNGoy
+[Thu Jun 11 01:41:59 JST 2009]X-Twitter-Client-URL: http://yusuke.homeip.net/twitter4j/en/twitter4j-undefined.xml
+[Thu Jun 11 01:41:59 JST 2009]User-Agent: twitter4j http://yusuke.homeip.net/twitter4j/ /undefined
+[Thu Jun 11 01:41:59 JST 2009]Accept-Encoding: gzip
+[Thu Jun 11 01:41:59 JST 2009]X-Twitter-Client-Version: undefined
