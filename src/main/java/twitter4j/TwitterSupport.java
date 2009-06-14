@@ -79,7 +79,7 @@ import twitter4j.http.HttpClient;
      */
     
     public void addIpRateLimitStatusListener(RateLimitStatusListener listener){
-    	accountRateLimitStatusListeners.add(listener);
+    	ipRateLimitStatusListeners.add(listener);
     }
     
     /** package */ void fireIpRateLimitStatusListenerUpdate(RateLimitStatus status){

@@ -343,8 +343,15 @@ public class Twitter extends TwitterSupport implements java.io.Serializable, Htt
 		if (limit != null & remaining != null & reset != null) {
 			rateLimitStatus = new RateLimitStatus(rateLimitLimit,
 					rateLimitRemaining, rateLimitReset);
+		} else {
+			return;
 		}
-		fireAccountRateLimitStatusListenerUpdate(rateLimitStatus);
+
+		if(event.isAuthenticated()){
+			fireAccountRateLimitStatusListenerUpdate(rateLimitStatus);
+		} else {
+			fireIpRateLimitStatusListenerUpdate(rateLimitStatus);
+		}
 	}
 
 	/**

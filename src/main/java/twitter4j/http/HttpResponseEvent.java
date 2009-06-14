@@ -17,6 +17,7 @@ public class HttpResponseEvent {
 		this.url = url;
 		this.postParams = postParams;
 		this.response = response;
+		this.authenticated = authenticated;
 	}
 
 	public String getUrl() {
