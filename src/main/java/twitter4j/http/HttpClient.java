@@ -39,6 +39,7 @@ import java.net.Proxy;
 import java.net.Proxy.Type;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -80,6 +81,8 @@ public class HttpClient implements java.io.Serializable {
     private String authorizationURL = "http://twitter.com/oauth/authorize";
     private String accessTokenURL = "http://twitter.com/oauth/access_token";
     private OAuthToken oauthToken = null;
+    
+    private List<HttpResponseListener> httpResponseListeners = new ArrayList<HttpResponseListener>();
 
     public HttpClient(String userId, String password) {
         this();
@@ -474,10 +477,21 @@ public class HttpClient implements java.io.Serializable {
                 //nothing to do
             }
         }
+        fireHttpResponseEvent(new HttpResponseEvent(url, postParams, authenticated, res));
         return res;
     }
 
-    public static String encodeParameters(PostParameter[] postParams) {
+    private void fireHttpResponseEvent(HttpResponseEvent httpResponseEvent) {
+		for(HttpResponseListener listener : httpResponseListeners){
+			listener.httpResponseReceived(httpResponseEvent);
+		}
+	}
+    
+    public void addHttpResponseListener(HttpResponseListener listener){
+    	httpResponseListeners.add(listener);
+    }
+
+	public static String encodeParameters(PostParameter[] postParams) {
         StringBuffer buf = new StringBuffer();
         for (int j = 0; j < postParams.length; j++) {
             if (j != 0) {

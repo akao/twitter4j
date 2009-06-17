@@ -51,7 +51,15 @@ public class RateLimitStatus extends TwitterResponse {
         dateTime = getChildDate("reset-time", elem, "yyyy-M-d'T'HH:mm:ss+00:00");
     }
 
-    public int getRemainingHits() {
+    public RateLimitStatus(int rateLimitLimit, int rateLimitRemaining,
+			long rateLimitReset) {
+    	hourlyLimit = rateLimitLimit;
+		remainingHits = rateLimitRemaining;
+		dateTime = new Date(rateLimitReset * 1000);
+		resetTimeInSeconds = (int)rateLimitReset;
+	}
+
+	public int getRemainingHits() {
         return remainingHits;
     }
 

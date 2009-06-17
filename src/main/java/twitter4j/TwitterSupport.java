@@ -26,6 +26,9 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 package twitter4j;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import twitter4j.http.HttpClient;
 
 /**
@@ -34,6 +37,10 @@ import twitter4j.http.HttpClient;
 /*protected*/ class TwitterSupport {
     protected HttpClient http = new HttpClient();
     protected String source = Configuration.getSource();
+    
+    private List<RateLimitStatusListener> accountRateLimitStatusListeners = new ArrayList<RateLimitStatusListener>();
+    private List<RateLimitStatusListener> ipRateLimitStatusListeners = new ArrayList<RateLimitStatusListener>();
+    
 //    /*package*/ static final String VERSION = Version.getVersion();
     /*package*/ TwitterSupport(){
         this(null, null);
@@ -43,6 +50,42 @@ import twitter4j.http.HttpClient;
         setClientURL(null);
         setUserId(userId);
         setPassword(password);
+    }
+    
+    /**
+     * Registers a RateLimitStatusListener for account associated rate limits
+     *
+     * @return void
+     * @since Twitter4J ???
+     * @see <a href="http://apiwiki.twitter.com/Twitter-REST-API-Method%3A-account%C2%A0rate_limit_status">Twitter API Wiki / Twitter REST API Method: account rate_limit_status</a>
+     */
+    
+    public void addAccountRateLimitStatusListener(RateLimitStatusListener listener){
+    	accountRateLimitStatusListeners.add(listener);
+    }
+    
+    /** package */ void fireAccountRateLimitStatusListenerUpdate(RateLimitStatus status){
+    	for(RateLimitStatusListener listener : accountRateLimitStatusListeners){
+    		listener.rateLimitStatusUpdated(status);
+    	}
+    }
+    
+    /**
+     * Registers a RateLimitStatusListener for ip associated rate limits
+     *
+     * @return void
+     * @since Twitter4J ???
+     * @see <a href="http://apiwiki.twitter.com/Twitter-REST-API-Method%3A-account%C2%A0rate_limit_status">Twitter API Wiki / Twitter REST API Method: account rate_limit_status</a>
+     */
+    
+    public void addIpRateLimitStatusListener(RateLimitStatusListener listener){
+    	ipRateLimitStatusListeners.add(listener);
+    }
+    
+    /** package */ void fireIpRateLimitStatusListenerUpdate(RateLimitStatus status){
+    	for(RateLimitStatusListener listener : ipRateLimitStatusListeners){
+    		listener.rateLimitStatusUpdated(status);
+    	}
     }
 
     /**
