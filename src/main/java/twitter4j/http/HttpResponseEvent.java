@@ -1,10 +1,8 @@
 package twitter4j.http;
 
 /**
- * 
- * @author unascribed
+ * @author Andrew Hedges - andrew.hedges at gmail.com
  */
-
 public class HttpResponseEvent {
 
 	private String url;

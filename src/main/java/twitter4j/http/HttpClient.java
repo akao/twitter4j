@@ -81,7 +81,7 @@ public class HttpClient implements java.io.Serializable {
     private String authorizationURL = "http://twitter.com/oauth/authorize";
     private String accessTokenURL = "http://twitter.com/oauth/access_token";
     private OAuthToken oauthToken = null;
-    
+
     private List<HttpResponseListener> httpResponseListeners = new ArrayList<HttpResponseListener>();
 
     public HttpClient(String userId, String password) {
@@ -119,7 +119,7 @@ public class HttpClient implements java.io.Serializable {
     public String getPassword() {
         return password;
     }
-    
+
     public boolean isAuthenticationEnabled(){
         return null != basic || null != oauth;
     }
@@ -451,7 +451,7 @@ public class HttpClient implements java.io.Serializable {
                         if (responseCode < INTERNAL_SERVER_ERROR || retriedCount == retryCount) {
                             throw new TwitterException(getCause(responseCode) + "\n" + res.asString(), responseCode);
                         }
-                        // will retry if the status code is INTERNAL_SERVER_ERROR 
+                        // will retry if the status code is INTERNAL_SERVER_ERROR
                     } else {
                         break;
                     }
@@ -486,7 +486,7 @@ public class HttpClient implements java.io.Serializable {
 			listener.httpResponseReceived(httpResponseEvent);
 		}
 	}
-    
+
     public void addHttpResponseListener(HttpResponseListener listener){
     	httpResponseListeners.add(listener);
     }
